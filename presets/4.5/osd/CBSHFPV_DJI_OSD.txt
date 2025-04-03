@@ -1,0 +1,97 @@
+#$ TITLE: CBSHFPV DJI O3/O4 OSD
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:DJI, O3, O4, O4pro, HD, HDOSD, OSD
+#$ AUTHOR: CBSHFPV 
+
+#$ DESCRIPTION: CBSHFPV's OSD Setup for DJI O3/O4/O4 Pro Air Unit
+#$ DESCRIPTION: Intended to be used with 16.9 aspect ratio.
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: For use with the DJI O3/O4/O4 Pro Air Unit and the Goggles 2/Goggles Integra/Goggles 3
+#$ DESCRIPTION: This is also setup with CRSF Elements for ELRS and Crossfire
+#$ DESCRIPTION: You may also need to change osd_rssi_dbm_alarm depending on your packet rate, i run 250Hz so i have it set to alarm at -98dB instead of -108dB
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: You will also need to select "VTX (MSP + Displayport) on the appropriate port in the ports tab.
+#$ DESCRIPTION: Make Sure Canvas Mode is set to HD OSD in Settings > Display > Canvas Mode
+
+#$ DESCRIPTION: Preview:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: <img src="https://github.com/betaflight/firmware-presets/assets/83344205/039e4153-b056-4244-91e1-2b06501326d4" style="width:100%"/>
+
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+#$ OPTION_GROUP BEGIN: OSD With GPS
+    #$ OPTION BEGIN (UNCHECKED): OSD With GPS
+        set osd_units = BRITISH
+        set osd_warn_bitmask = 449533
+        set osd_rssi_dbm_alarm = -98
+        set osd_tim1 = 1024
+        set osd_tim2 = 1026
+        set osd_vbat_pos = 2632
+        set osd_link_quality_pos = 3629
+        set osd_link_tx_power_pos = 3597
+        set osd_rssi_dbm_pos = 3623
+        set osd_rsnr_pos = 3591
+        set osd_tim_1_pos = 3437
+        set osd_tim_2_pos = 3405
+        set osd_remaining_time_estimate_pos = 527
+        set osd_flymode_pos = 2530
+        set osd_throttle_pos = 2562
+        set osd_ah_sbar_pos = 295
+        set osd_ah_pos = 165
+        set osd_current_pos = 2593
+        set osd_mah_drawn_pos = 2600
+        set osd_craft_name_pos = 2646
+        set osd_pilot_name_pos = 2049
+        set osd_gps_speed_pos = 2306
+        set osd_gps_sats_pos = 2338
+        set osd_home_dir_pos = 2375
+        set osd_home_dist_pos = 2370
+        set osd_altitude_pos = 2402
+        set osd_warnings_pos = 14357
+        set osd_avg_cell_voltage_pos = 2626
+        set osd_battery_usage_pos = 545
+        set osd_disarmed_pos = 2134
+        set osd_flip_arrow_pos = 2106
+        set osd_stat_bitmask = 9774
+        set osd_gps_sats_show_pdop = O
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: OSD Without GPS
+    #$ OPTION BEGIN (UNCHECKED): OSD Without GPS
+        set osd_units = BRITISH
+        set osd_warn_bitmask = 449533
+        set osd_rssi_dbm_alarm = -98
+        set osd_tim1 = 1024
+        set osd_tim2 = 1026
+        set osd_vbat_pos = 2632
+        set osd_link_quality_pos = 3629
+        set osd_link_tx_power_pos = 3597
+        set osd_rssi_dbm_pos = 3623
+        set osd_rsnr_pos = 3591
+        set osd_tim_1_pos = 3437
+        set osd_tim_2_pos = 3405
+        set osd_remaining_time_estimate_pos = 527
+        set osd_flymode_pos = 2530
+        set osd_throttle_pos = 2562
+        set osd_ah_sbar_pos = 295
+        set osd_ah_pos = 165
+        set osd_current_pos = 2593
+        set osd_mah_drawn_pos = 2600
+        set osd_craft_name_pos = 2646
+        set osd_pilot_name_pos = 2049
+        set osd_altitude_pos = 2402
+        set osd_warnings_pos = 14357
+        set osd_avg_cell_voltage_pos = 2626
+        set osd_battery_usage_pos = 545
+        set osd_disarmed_pos = 2134
+        set osd_flip_arrow_pos = 2106
+        set osd_stat_bitmask = 9774
+    #$ OPTION END
+#$ OPTION_GROUP END
