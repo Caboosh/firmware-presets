@@ -6506,11 +6506,31 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/osd/CBSHFPV_DJI_OSD GPS.txt",
+      "hash": "b67959f803044346f3176e35b6b544a9bde6f0952d79b3b0773c490ed80b5af4",
+      "title": "CBSHFPV DJI O3/O4 OSD GPS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DJI",
+        "O3",
+        "O4",
+        "O4pro",
+        "HD",
+        "HDOSD",
+        "OSD"
+      ],
+      "author": "CBSHFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/CBSHFPV_DJI_OSD.txt",
-      "hash": "aafa31d61b2ed0b9fd777f8466a345678d324333d42a8a0fbd847090a38d5cc4",
+      "hash": "82cab529a031fafafdf0efb473bd501169289b32240ee5f6d32d94fc13abc26e",
       "title": "CBSHFPV DJI O3/O4 OSD",
       "firmware_version": [
-        "4.4",
         "4.5"
       ],
       "category": "OSD",

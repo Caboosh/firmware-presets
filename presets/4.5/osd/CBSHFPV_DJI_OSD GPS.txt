@@ -1,4 +1,4 @@
-#$ TITLE: CBSHFPV DJI O3/O4 OSD
+#$ TITLE: CBSHFPV DJI O3/O4 OSD GPS
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
@@ -43,6 +43,10 @@ set osd_current_pos = 2593
 set osd_mah_drawn_pos = 2600
 set osd_craft_name_pos = 2646
 set osd_pilot_name_pos = 2049
+set osd_gps_speed_pos = 2306
+set osd_gps_sats_pos = 2338
+set osd_home_dir_pos = 2375
+set osd_home_dist_pos = 2370
 set osd_altitude_pos = 2402
 set osd_warnings_pos = 14357
 set osd_avg_cell_voltage_pos = 2626
@@ -50,3 +54,4 @@ set osd_battery_usage_pos = 545
 set osd_disarmed_pos = 2134
 set osd_flip_arrow_pos = 2106
 set osd_stat_bitmask = 9774
+set osd_gps_sats_show_pdop = O
