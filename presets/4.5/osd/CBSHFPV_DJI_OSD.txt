@@ -23,8 +23,6 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: <img src="https://github.com/betaflight/firmware-presets/assets/83344205/039e4153-b056-4244-91e1-2b06501326d4" style="width:100%"/>
 
-#$ INCLUDE: presets/4.4/osd/defaults.txt
-
 #$ OPTION_GROUP BEGIN: OSD With GPS
     #$ OPTION BEGIN (UNCHECKED): OSD With GPS
         set osd_units = BRITISH
